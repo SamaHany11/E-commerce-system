@@ -1,6 +1,6 @@
    E-Commerce Checkout System With Java
 
-Overview
+##Overview
 This Java-based project simulates a simple e-commerce checkout system with the following features:
 •	Product Types:
 o	Regular products
@@ -21,7 +21,7 @@ Edge Cases Handled
 •	Expired perishable products
 •	Insufficient stock for requested quantities
 •	Insufficient customer balance to complete purchase
-How It Works
+##How It Works
 1.	Add products (regular, perishable, or shippable) to the shopping cart with desired quantities.
 2.	Checkout:
 o	System checks for any expired or out-of-stock items.
@@ -39,10 +39,19 @@ Project Structure (Example)
 •	Cart (holds products and quantities)
 •	Customer (tracks user balance)
 •	CheckoutService (handles validation, calculation, and printing)
-How to Run
+##How to Run
 •	Compile all .java files
 •	Run the main class that initializes sample products, customer, cart, and calls the checkout method
 •	Follow console output for checkout process and receipts
-Requirements
+##Requirements
 •	Java SE Development Kit (JDK) 8 or higher
+## Screenshots
+
+# 1. Application Running in Eclipse
+
+![Running App](Output/running%20app%20(2).png)
+
+# 2. Console Output After Purchase
+
+![Output](Output/Output1.png)
 
